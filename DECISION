@@ -1,0 +1,21 @@
+/*This is a program to calculate whether a certain individual is eligible to vote or not. The program accepts the user's age as input 
+and then decides on whether the person can vote.*/ 
+
+import java.io.*;
+public class USERINPUT
+{
+    public static void main(String args[])throws IOException
+    {
+        BufferedReader x = new BufferedReader(new InputStreamReader(System.in))
+        System.out.println("Enter your age to check whether you are eligible to vote or not");
+        double a = Double.parseDouble(x.readLine());
+        if(a<18)
+        {
+            System.out.println("You are not eligible to vote.")
+        }
+        else if(age>=18)
+        {
+            System.out.println("You are eligible to vote.")
+        }
+    }
+}
